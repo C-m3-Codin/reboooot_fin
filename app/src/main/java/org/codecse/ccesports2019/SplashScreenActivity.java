@@ -16,7 +16,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
         final Intent intent = new Intent(SplashScreenActivity.this,
-                MainActivity.class);
+                login.class);
         Random random = new Random();
         int randomInteger = random.nextInt(10);
         View decorView=getWindow().getDecorView();

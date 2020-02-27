@@ -15,7 +15,8 @@
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IndividualChampions"></activity>
+        <activity android:name=".login"></activity>
+        <activity android:name=".IndividualChampions" />
         <activity android:name=".About_Us" />
         <activity android:name=".FeedBack" />
 
